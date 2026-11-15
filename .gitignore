@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Local development tools (untracked)
+misc/
+tauricanvas_v0_2_0_part001.md
+
+# Local test configurations (paths are user-specific)
+calc.yaml
+notes_v2.yaml
+quant.yaml
+
+# Rust
+target/
+Cargo.lock
+
+# Node
+node_modules/
+dist/

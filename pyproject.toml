@@ -1,0 +1,17 @@
+[build-system]
+requires=["hatchling"]
+build-backend="hatchling.build"
+[project]
+name="tauricanvas"
+version="0.2.0"
+requires-python=">=3.11"
+dependencies=["typer>=0.12","rich>=13","pydantic>=2","ruamel.yaml>=0.18","tree-sitter>=0.22","tree-sitter-rust>=0.21"]
+[project.optional-dependencies]
+dev=["pytest>=8","ruff>=0.6"]
+[project.scripts]
+tauricanvas="tauricanvas.cli:app"
+[tool.hatch.build.targets.wheel]
+packages=["src/tauricanvas"]
+include=["src/tauricanvas/assets/icons/*.ico"]
+[tool.pytest.ini_options]
+testpaths=["tests"]

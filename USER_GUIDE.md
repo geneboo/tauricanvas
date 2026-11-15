@@ -1,4 +1,4 @@
-# TauriCanvas User Guide (v0.2.0)
+# TauriCanvas User Guide (v0.2.0) by Gene
 
 TauriCanvas is a bridge between your pure Rust logic and a beautiful Tauri 2 desktop interface. It analyzes your Rust code, generates typed IPC bridges, and scaffolds a secure, native desktop app.
 

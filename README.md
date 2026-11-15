@@ -2,8 +2,6 @@
   <img src="logo.svg" width="150" alt="TauriCanvas Logo" />
 </p>
 
-# TauriCanvas v0.2.0
-=======
 # TauriCanvas v0.2.0 by Gene
 
 A deterministic Python analyzer and Tauri 2 generator for Rust Cargo projects.

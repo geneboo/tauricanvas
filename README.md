@@ -3,6 +3,9 @@
 </p>
 
 # TauriCanvas v0.2.0
+=======
+# TauriCanvas v0.2.0 by Gene
+
 A deterministic Python analyzer and Tauri 2 generator for Rust Cargo projects.
 
 TauriCanvas parses your Rust AST, extracts structs and public functions, and automatically scaffolds a secure, typed Tauri 2 desktop application around your core logic. 
